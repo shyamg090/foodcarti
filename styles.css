@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(254, 244, 102);
+    color: black;
+    font-family: 'ABeeZee', sans-serif;
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
+    background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgba(255,244,169,1) 0%, rgba(255,244,234,1) 100.2% );
+}
+
+/* Top container  */
+.container-fluid{
+     padding: 1rem 3rem;
+}
+.navbar{
+    padding: 0rem;
+    margin: 1rem 0;
+}
+
+.navlinks{
+    margin: .5rem;
+    color: black;
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+.nav-item{
+    padding: .3rem;
+}
+
+/* frontpage contents */
+.frontpagecontent{
+    padding: 1rem;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,229,168,1) 0%, rgba(251,174,222,1) 100.7% );
+    border-radius: 2rem;
+}
+.col1content{
+    padding: 4rem;
+    text-align: left;
+    font-weight: 500;
+}
+#h1{
+    font-weight: 1000;
+    letter-spacing: 2px;
+    /* margin: .5rem 0; */
+}
+
+.frontimg{
+    width: 85%;
+    height: 85%;
+    position: relative;
+    left: 2.5rem;
+}
+
+/*  features*/
+#features{
+    margin: 3rem 4rem;
+    padding: 2rem;
+    text-align: center;
+    word-spacing: 1px;
+    font-weight: 500;
+}
+
+.featuresimg{
+    width: 13rem;
+    height: 13rem;
+    padding: 1.5rem;
+}
+
+/*  */
+#menu{
+    margin: 3rem 4rem;
+    padding: 1rem;
+    text-align: center;
+    word-spacing: 1px;
+    font-weight: 500;
+}
+.card{
+    /* width: 100%; */
+    padding: 1rem 0;
+    margin: 2rem 0;
+    height: 15rem;
+    border-radius: 2rem;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,229,168,1) 0%, rgba(251,174,222,1) 100.7% ); 
+    transition: .1s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.menuimg{
+    width: 13rem;
+    height: 10rem;
+    border-radius: 100%;
+}
+h3{
+    font-weight: 500;
+}
+.menuheading{
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+/*  */
+#carouselreviews{
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,229,168,1) 0%, rgba(251,174,222,1) 100.7% );
+    border-radius: 2rem;  */
+    text-align: center;
+    margin: 2rem 2rem;
+
+}
+.carouselimg{
+    width: 30%;
+    height: 30%;
+    border-radius: 400%;
+    margin: 1rem;
+}
+.carousel-item{
+    padding: 2% 15%;
+}
+
+/* */
+#footer{
+    padding: 1.5rem 1rem;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,229,168,1) 0%, rgba(251,174,222,1) 100.7% ); ;
+    text-align: center;
+}
+.footimg{
+    width: 2rem;
+    height: 2rem;
+    margin: 1.5rem 2rem;
+}
+.alink{
+    color: rgba(240, 248, 255, 0);
+}
+@media (max-width:990px) {
+    .col1content{
+        text-align: center;
+    }
+    
+}
