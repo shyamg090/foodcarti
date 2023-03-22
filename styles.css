@@ -1,8 +1,8 @@
 body{
-    background-color: rgb(254, 244, 102);
+    /* background-color: rgb(254, 244, 102); */
     color: black;
     font-family: 'ABeeZee', sans-serif;
-    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
+    /* background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% ); */
     background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgba(255,244,169,1) 0%, rgba(255,244,234,1) 100.2% );
 }
 
@@ -65,8 +65,8 @@ body{
 }
 
 .featuresimg{
-    width: 13rem;
-    height: 13rem;
+    width: 16rem;
+    height: 16rem;
     padding: 1.5rem;
 }
 
@@ -86,6 +86,9 @@ body{
     border-radius: 2rem;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,229,168,1) 0%, rgba(251,174,222,1) 100.7% ); 
     transition: .1s;
+}
+.card-body{
+    padding: 1.3rem;
 }
 .card:hover{
     transform: scale(1.1);
@@ -138,6 +141,16 @@ h3{
 @media (max-width:990px) {
     .col1content{
         text-align: center;
+    }
+    .featuresimg{
+        width: 10rem;
+        height: 10rem;
+        padding: 1.5rem;
+    }
+    .menuimg{
+        width: 10rem;
+        height: 7rem;
+        border-radius: 100%;
     }
     
 }
