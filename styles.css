@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
 body{
     /* background-color: rgb(254, 244, 102); */
     color: black;
@@ -70,7 +74,7 @@ body{
     padding: 1.5rem;
 }
 
-/*  */
+/*menu  */
 #menu{
     margin: 3rem 4rem;
     padding: 1rem;
@@ -83,16 +87,19 @@ body{
     padding: 1rem 0;
     margin: 2rem 0;
     height: 15rem;
-    border-radius: 2rem;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,229,168,1) 0%, rgba(251,174,222,1) 100.7% ); 
+    /* border-radius: 2rem; */
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,229,168,1) 0%, rgba(251,174,222,1) 100.7% );  */
     transition: .1s;
 }
 .card-body{
     padding: 1.3rem;
+    border-radius: 1rem;
+    /* background-color: aliceblue; */
 }
 .card:hover{
     transform: scale(1.1);
 }
+
 .menuimg{
     width: 13rem;
     height: 10rem;
@@ -122,6 +129,14 @@ h3{
 }
 .carousel-item{
     padding: 2% 15%;
+}
+
+/* pricing section */
+#pricing{
+    margin: 3rem;
+}
+.cardp{
+    height: 20rem;
 }
 
 /* */
